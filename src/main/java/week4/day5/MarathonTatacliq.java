@@ -51,6 +51,7 @@ public class MarathonTatacliq {
 		//print all price of watches
 		List<WebElement> prices = driver.findElements(By.xpath("//div[@class='ProductDescription__priceHolder']/h3"));
 		
+		//To get the all prices of the watches
 		for (int i = 0; i < prices.size(); i++) {
 			System.out.println(prices.get(i).getText());
 		}
